@@ -1,21 +1,30 @@
 <template>
   <div>
     <hr />
-    <Category />
+    <CategorySection 
+      sectionTitle="News"
+      headImg="" />
     <hr />
-    <Category />
+      <CategorySection 
+      sectionTitle="Food & Drink" />
     <hr />
-    <Category />
+      <CategorySection 
+      sectionTitle="Events" />
+    <hr />
+      <CategorySection 
+      sectionTitle="Guides" />
     <hr />
   </div>
 </template>
 
 <script>
   import TheNav from '@/components/TheNav'
-  import Category from '@/components/Home/Category'
+  import CategorySection from '@/components/Home/CategorySection'
 
   export default {
-    
+    components: {
+      CategorySection
+    }
   }
 </script>
 

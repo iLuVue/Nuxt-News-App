@@ -1,7 +1,9 @@
 <template>
   <div>
     <TheNav />
+    <section class="main-content">
     <Nuxt />
+    </section>
     <TheFooter />
   </div>
 </template>
@@ -15,5 +17,11 @@
 </script>
 
 <style lang="scss" scoped>
+
+.main-content {
+  max-width: 1200px;
+  padding: 30px;
+  margin: 0px auto;
+}
 
 </style>
