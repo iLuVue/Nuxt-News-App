@@ -4,18 +4,40 @@
     <a>See more ></a>
         <div class="columns">
             <div class="column is-two-fifths">
-                <img :src="headImg">
+                <img :src="headImg" />
+                    <article>
+                        <h2>{{ headTitle }}</h2>
+                        <p>{{ headLede }}</p>
+                    </article>
             </div>
-                <div class="column">2</div>
-                <div class="column">3</div>
-                <div class="column">4</div>
+                <div class="column">
+                    <img :src="require('assets/1.jpg')">
+                    <article>
+                        <h2>{{ headTitle }}</h2>
+                        <p>{{ headLede }}</p>
+                    </article>
+                </div>
+                <div class="column">
+                    <img :src="require('assets/1.jpg')">
+                    <article>
+                        <h2>{{ headTitle }}</h2>
+                        <p>{{ headLede }}</p>
+                    </article>
+                </div>
+                <div class="column">
+                    <img :src="require('assets/1.jpg')">
+                    <article>
+                        <h2>{{ headTitle }}</h2>
+                        <p>{{ headLede }}</p>
+                    </article>
+                </div>
         </div>
     </section>
 </template>
 
 <script>
     export default {
-        props: ['sectionTitle', 'headImg', 'headTitle', 'headExcerpt']
+        props: ['sectionTitle', 'headImg', 'headTitle', 'headLede']
     }
 </script>
 
@@ -33,11 +55,6 @@ a {
 
 img {
     width: 100%;
-}
-
-.column {
-  background-color: lightpink;
-  border-radius: 5px;
 }
 
 </style>

@@ -3,13 +3,15 @@
     <hr />
     <CategorySection 
       sectionTitle="News"
-      headImg="" />
+      headImg="@/assets/1.jpg"
+      headTitle="Article Headline"
+      headLede="Excerpt from article to capture readers' attention." />
     <hr />
       <CategorySection 
       sectionTitle="Food & Drink" />
     <hr />
       <CategorySection 
-      sectionTitle="Events" />
+      sectionTitle="Events & Entertainment" />
     <hr />
       <CategorySection 
       sectionTitle="Guides" />
