@@ -3,18 +3,27 @@
     <hr />
     <CategorySection 
       sectionTitle="News"
-      headImg="@/assets/1.jpg"
+      headImg="1.jpg"
       headTitle="Article Headline"
       headLede="Excerpt from article to capture readers' attention." />
     <hr />
-      <CategorySection 
-      sectionTitle="Food & Drink" />
+    <CategorySection 
+      sectionTitle="Food & Drink"
+      headImg="1.jpg"
+      headTitle="Article Headline"
+      headLede="Excerpt from article to capture readers' attention." />
     <hr />
-      <CategorySection 
-      sectionTitle="Events & Entertainment" />
+    <CategorySection 
+      sectionTitle="Entertainment & Events"
+      headImg="1.jpg"
+      headTitle="Article Headline"
+      headLede="Excerpt from article to capture readers' attention." />
     <hr />
-      <CategorySection 
-      sectionTitle="Guides" />
+    <CategorySection 
+      sectionTitle="Guides"
+      headImg="1.jpg"
+      headTitle="Article Headline"
+      headLede="Excerpt from article to capture readers' attention." />
     <hr />
   </div>
 </template>
