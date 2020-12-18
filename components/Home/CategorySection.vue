@@ -6,31 +6,31 @@
     </div>
         <div class="columns">
             <div class="column is-two-fifths">
-                <img :src="require(`~/assets/${headImg}`)" />
+                <img :src="require(`~/assets${headImg}`)" />
                     <article>
                         <h2>{{ headTitle }}</h2>
                         <p>{{ headLede }}</p>
                     </article>
             </div>
                 <div class="column">
-                    <img :src="require('assets/1.jpg')">
+                    <img :src="require(`~/assets${secondImg}`)" />
                     <article>
-                        <h2>{{ headTitle }}</h2>
-                        <p>{{ headLede }}</p>
+                        <h2>{{ secondTitle }}</h2>
+                        <p>{{ secondLede }}</p>
                     </article>
                 </div>
                 <div class="column">
-                    <img :src="require('assets/1.jpg')">
+                    <img :src="require(`~/assets${thirdImg}`)" />
                     <article>
-                        <h2>{{ headTitle }}</h2>
-                        <p>{{ headLede }}</p>
+                        <h2>{{ thirdTitle }}</h2>
+                        <p>{{ thirdLede }}</p>
                     </article>
                 </div>
                 <div class="column">
-                    <img :src="require('assets/1.jpg')">
+                    <img :src="require(`~/assets${fourthImg}`)" />
                     <article>
-                        <h2>{{ headTitle }}</h2>
-                        <p>{{ headLede }}</p>
+                        <h2>{{ fourthTitle }}</h2>
+                        <p>{{ fourthLede }}</p>
                     </article>
                 </div>
         </div>
@@ -39,7 +39,8 @@
 
 <script>
     export default {
-        props: ['sectionTitle', 'headImg', 'headTitle', 'headLede']
+        props: ['sectionTitle', 'headImg', 'headTitle', 'headLede', 'secondImg', 'secondTitle', 
+        'secondLede', 'thirdImg', 'thirdTitle', 'thirdLede', 'fourthImg', 'fourthTitle', 'fourthLede']
     }
 </script>
 
@@ -56,24 +57,24 @@ h1 {
     justify-content: center;
     transform: translateX(5%);
     text-align: center;
-    font-family: 'Roboto', Sans-Serif;
+    font-family: 'Roboto';
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 h2 {
-    font-family: 'Roboto', Sans-Serif;
+    font-family: 'Roboto';
     font-size: 20px;
 }
 
 p {
-    font-family: 'Droid Serif', Serif;
+    font-family: 'Roboto';
     font-size: 15px;
 }
 
 a {
     font-size: 0.75rem;
-    font-family: 'Droid Serif', Serif;
+    font-family: 'Roboto';
     font-size: 15px;
 }
 

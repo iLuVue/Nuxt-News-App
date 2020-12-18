@@ -9,7 +9,7 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300' }
+      // { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300' }
     ]
   },
 
@@ -19,6 +19,7 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
+    '~/plugins/vue-carousel.client.js'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -33,7 +34,7 @@ export default {
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
