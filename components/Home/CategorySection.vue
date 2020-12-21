@@ -67,6 +67,10 @@ h2 {
     font-size: 20px;
 }
 
+h2:hover {
+    text-decoration: underline;
+}
+
 p {
     font-family: 'Roboto';
     font-size: 15px;
@@ -76,6 +80,10 @@ a {
     font-size: 0.75rem;
     font-family: 'Roboto';
     font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 img {
