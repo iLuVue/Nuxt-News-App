@@ -15,6 +15,10 @@ export default {
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: [
+    // global CSS stylesheet
+    '~/assets/global.css',
+    '~assets/main',
+    'bulma'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -34,7 +38,9 @@ export default {
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
     // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    // https://tailwindcss.nuxtjs.org/
+    '@nuxtjs/tailwindcss'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -42,10 +48,5 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-  },
-
-  css: [
-    // global CSS stylesheet
-    '~/assets/global.css'
-  ]
+  }
 }

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <hr />
+
+    <!-- News Section -->
+
     <CategorySection 
       sectionTitle="News"
       headImg="/images/News/1.jpg"
@@ -61,6 +63,9 @@
       </slide>
     </carousel>
     <hr />
+
+    <!-- Food & Drink Section -->
+
     <CategorySection 
       sectionTitle="Food & Drink"
       headImg="/images/Food/1.jpg"
@@ -76,6 +81,9 @@
       fourthTitle="Apple"
       fourthLede="Pear" />
     <hr />
+
+    <!-- Entertainment & Events Section -->
+
     <CategorySection 
       sectionTitle="Entertainment & Events"
       headImg="/images/Events/1.jpg"
@@ -91,6 +99,9 @@
       fourthTitle="Apple"
       fourthLede="Pear" />
     <hr />
+
+    <!-- Guides Section -->
+
     <CategorySection 
       sectionTitle="Guides"
       headImg="/images/Guides/1.jpg"
