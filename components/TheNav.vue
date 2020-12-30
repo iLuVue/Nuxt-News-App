@@ -1,5 +1,5 @@
 <template>
-    <b-navbar centered fixed-top="true">
+    <b-navbar centered fixed-top>
         <template slot="start">
             <b-navbar-item v-for="item in navbars" :key="item.title" :href="item.target">
                 {{item.title}}
